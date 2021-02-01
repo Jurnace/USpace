@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.welcome-height {
+    min-height: 500px;
+}
+
+body {
+    background-color: #d10e48;
+}
+
+.row {
+    background: white;
+    box-shadow: 12px 12px 22px grey;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #b22222;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #a52020 !important;
+}
+
+.btn:active {
+    background-color: #9d1e1e !important;
+}
+
+.btn:disabled {
+    background-color: #901b1b !important;
+}
+
+a {
+    color: #b22222;
+}
+
+#blogin {
+    margin-top: 195px;
+}

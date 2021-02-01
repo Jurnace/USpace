@@ -1,0 +1,23 @@
+.search-box {
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+    width: 96%;
+}
+
+@media (min-width: 768px) {
+    /* set the width of the search bar if the width of the screen is bigger than 768px */
+    .search-bar {
+        width: 380px !important;
+    }
+}
+
+.result-disabled {
+    cursor: not-allowed;
+    /* disable events such as click */
+    pointer-events: none;
+}
+
+.name-height {
+    font-size: 75%;
+}
